@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+section {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.left {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background: #201047;
+  height: 100%;
+}
+
+.right {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 100%;
+}
+
+.logo {
+  height: 100px;
+}
+
+
+.link {
+  text-decoration: none;
+  background: #F8AF6D;
+  border-radius: 8px;
+  width: 50%;
+  color: #fff;
+  display: block;
+  padding: 2%;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%);
+
+}
+
